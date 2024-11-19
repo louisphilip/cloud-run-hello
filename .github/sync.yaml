@@ -1,7 +1,7 @@
 name: Sync Fork
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs daily
+    - cron: '20 0 * * *'  # Runs daily
   workflow_dispatch:
 jobs:
   sync:
